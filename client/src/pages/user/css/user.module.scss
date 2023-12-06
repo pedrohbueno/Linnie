@@ -1,0 +1,180 @@
+.sidebar{
+    border-right: 5px solid rgba(117, 117, 117, 0.404);
+    margin-top: -24px;
+    position: fixed;
+    .userImg{
+        width: 87%;
+        margin-bottom: 30px;
+        border-radius: 50%;
+    }
+    .btnPerfilEdit{
+        width: 60%;
+        background-color: #FCD074;
+        border-radius: 16px;
+        color: #f8f8f8;
+        justify-content: center;
+    }
+    p{
+        font-family: 'Bahnschrift';
+    }
+}
+
+.portfolio{
+    margin-left: 25%;
+    h1{
+        font-family: 'PoetsenOne'; 
+        font-size:3.5vw;
+    }
+}
+.card, .card img{
+    margin: 0;
+    height: auto;
+    width: 17vw;
+    min-width: 216px;
+    border-radius: 12px;
+}
+
+/* Botão de Criação */
+.createBtn{
+    display: block; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    color: #C25E84;
+    background-color: transparent;
+    bottom: 80px; /* Place the button at the bottom of the page */
+    right: 80px; /* Place the button 30px from the right */
+    z-index: 3; /* Make sure it does not overlap */
+
+    .imgBtn, .imgBtnHv{
+        width: 90px;
+    }
+    .imgBtnHv{
+        display: none;
+    }
+    &:hover{
+        .imgBtn{
+            display: none;
+        }
+        .imgBtnHv{
+            display: block;
+        }
+    }
+    
+}
+
+@media (min-width: 576px) and (max-width: 1000px) {
+    .userImg{
+        width: 100%;
+        margin-bottom: 30px;
+        border-radius: 50%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .portfolio{
+        margin-left: 33%;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+    .portfolio{
+        margin-left: 40%;
+    }
+}
+@media (max-width: 575px) {
+    .sidebar{
+        position: relative;
+    }
+    .portfolio{
+        margin-left: 0%;
+        h1{
+            font-size:9.5vw;
+        }
+    }
+}
+
+
+.userEdit{
+    .box{
+        background-color: #dcd4d69a;
+        border-radius: 10px;
+    }
+    .verticalLine{
+        border-right: 1.8px solid black;
+    }
+    .horizontalLine{
+        border-bottom: 1.8px solid black;
+        margin-bottom: 5px;
+        width: 100%;
+    }
+    .userEditButton{
+        height: 2.8rem;
+        width: 9rem;
+        margin: 60px 35%;
+        border-radius: 16px;
+        color: rgb(255, 246, 246);
+        background-color: #c25e84;
+        text-decoration: none;
+        font-size: 1.4rem;
+
+        
+    }
+    .userEditAvatar{
+        border: none;
+        background-color: transparent;
+        .userEditDropdown{
+            button{
+                background-color: transparent;
+            }
+            img{
+                height: 160px;
+                width: 160px;
+            }
+        }
+        .btnAvatarChange{
+            text-align: center;
+            display: none;
+            margin: 6vw;
+            border: none;
+            border-radius: 50%;
+            background-color: #FCD074;
+            &:hover{
+                background-color: #FFE8B7;
+            }
+        }
+        .avatarPreview{
+            height: auto;
+            width: 100%;
+        }
+        &:hover{
+            .avatarPreview{
+                filter: grayscale(40%);
+            }
+            .btnAvatarChange{
+                display: block;
+            }
+        }
+        .chooseAvatar{
+            text-align: center;
+            font-size: 6rem;
+            height: 160px;
+            width: 160px;
+            background-color: #FCD074;
+            border-radius: 50%;
+            &:hover{
+                background-color: #ECE6E8;
+                cursor: pointer;
+            }
+            input{
+                visibility: hidden;
+            }
+        }
+    }
+    
+    input{
+        border-radius: 30px;
+    }
+    .userEditTitle{
+        font-family: 'PoetsenOne';
+    }
+    .userEditSubTitle{
+        font-family: 'Bahnschrift';
+    }
+}

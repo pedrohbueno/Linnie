@@ -1,0 +1,73 @@
+.FormCreate{
+    .Input{
+        display: none;
+    }
+    .imgInputLabel{
+        width: 30vw;
+        height: 40vh;
+        background-color: white;
+
+        &:hover{
+            cursor: pointer;
+            opacity: 0.86;
+        }
+    }
+    .inputTitle{
+        background-color: transparent;
+        border: none;
+        border-radius: 0%;
+        border-bottom: 2px solid rgba(128, 128, 128, 0.591);
+        box-shadow: none;
+        font-family: 'Gothic A1';
+    }
+    .tagInput{
+        width: 18rem;
+        box-shadow: none;
+        border: none;
+    }
+    .tagInputBtn{
+        width: 8rem;
+        height: 1.8rem;
+        border: none;
+        background-color: #C25E84;
+        &:hover{
+            background-color: #FCD074;
+        }
+    }
+    .inputDecsLabel{
+        box-shadow: 0px 0px 0px 3px  rgba(128, 128, 128, 0.384);
+        width: 5rem;
+        color: #C25E84;
+        height: 2rem;
+    }
+    .descImg{
+        position: absolute;
+        width: 30rem;
+        right: 21.5rem;
+        top: 50rem;
+        z-index: -5;
+        transform: scaleX(-1);
+    }
+    .selectInputLabel{
+        margin: auto;
+    }
+    .selectInput{
+        width: 5rem;
+        height: 2rem;
+        border: none;
+        text-align: center;
+        box-shadow: none;
+    }
+    .selectInputTag{
+        width: 40rem;
+        height: 2rem;
+        border: none;
+        text-align: center;
+        box-shadow: none;
+    }
+
+    .description{
+        resize: none;
+        box-shadow:  0px 0px 6px 3px rgba(128, 128, 128, 0.411);
+    }
+}

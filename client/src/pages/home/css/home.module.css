@@ -1,0 +1,79 @@
+.background {
+  background: url("../img/backgroundimage.png") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.coloredText h1 {
+  font-size: calc(2.5rem + 1.8vw);
+  font-family: "Gotu";
+  letter-spacing: 5px;
+  width: 100%;
+}
+.coloredText h1 span {
+  margin-left: 8px;
+  color: #C25E84;
+}
+.coloredText h3 {
+  font-family: "Gothic A1", sans-serif;
+  font-size: 1.2vw;
+}
+
+.area {
+  display: flex;
+  text-align: center;
+}
+.area .a2 a {
+  text-decoration: none;
+  width: 100%;
+}
+.area .a2 a .imgBtn {
+  width: 41%;
+  margin-left: 60px;
+  margin-top: -50px;
+  height: auto;
+}
+.area .a2 a h2 {
+  font-family: "Bab";
+  color: #696969;
+  margin-bottom: -50px;
+  font-size: 3rem;
+}
+.area .a2 a:hover h2 {
+  transform: scale(1.2);
+}
+
+.blueprint {
+  background-color: transparent;
+  border: none;
+}
+.blueprint div {
+  margin: 8vh 16vw;
+}
+.blueprint div h1 {
+  text-align: initial;
+}
+.blueprint div h3 {
+  margin: 9vh 20vw 4vh 1vw;
+}
+.blueprint img {
+  margin-left: -58px;
+  width: 100%; 
+  margin-top: 35px;
+}
+
+.devsArea {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  overflow-x: hidden;
+}
+
+@media (max-width: 1199px) {
+  .a2 a img {
+    width: 100%;
+  }
+}
+@media (max-width: 938px) {
+  .area {
+    display: block;
+  }
+}/*# sourceMappingURL=home.module.css.map */

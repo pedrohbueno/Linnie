@@ -1,0 +1,85 @@
+.background{
+    background: url('../img/background.jpeg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+.skirExemple{
+    input[type="radio"]{
+        visibility: hidden;
+        &:checked + label {
+            color: #C25E84;
+        }
+    }
+    
+    label{
+        font-family: 'Bahnschrift';
+        border: none;
+        margin: auto;
+        &:hover{
+            color: #FCD074;
+        }
+
+    }
+}
+
+.Forms{
+    h3{
+        font-family: 'Bahnschrift';
+    }
+    .FormCheck{
+        label{
+            font-family: 'Bahnschrift';
+            font-size: larger;
+
+            width: 6rem;
+            padding: 2px;
+            margin-left: 20px;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+            background-color: #f7f7f7;
+            border: none;
+            border-radius: 15px;
+            color: black;
+            p{
+                padding: 2px;
+                margin: 0px;
+                border: 4px #696969;
+                border-style: dashed;
+                border-radius: 8px;
+            }
+            &:hover{
+                background-color: #00000071;
+            }
+        }
+        input[type="radio"]:checked + label {
+            background-color: #46444452;
+            }
+    }
+    div{
+        margin-bottom: 30px;
+        display: flex;
+        input{
+            width: 140px;
+            height: 35px;
+            border-radius: 10px;
+
+        }
+        button{
+            width: 108px;
+            height: 38px;
+            margin-left: 20px;
+            padding-top: 3px;
+            background-color: #C25E84;
+            border: none;
+            border-radius: 10px;
+            font-family: 'Bahnschrift';
+            font-size: x-large;
+            &:hover{
+                background-color: #772f4b;
+            }
+
+        }
+    }
+}

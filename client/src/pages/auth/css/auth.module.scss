@@ -1,0 +1,55 @@
+.background{
+    background-image: url('../img/background.jpg');
+}
+.row{
+    form{
+        padding: 0px 50px 10px 50px;
+        height: auto;
+        border-radius: 30px;
+        background-color: #DCD5D7;
+        h1{
+            font-family: 'POSTERMAN';
+            margin-bottom: 40px;
+            text-align: center;
+        }
+        p{
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 20px;
+            label{
+                margin-bottom: 10px;
+            }
+            input{
+                height: 35px;
+                border: 0;
+                border-radius: 18px;
+            }
+        }
+
+        .btnC25E84{
+            width: 120px;
+            height: 42px;
+            margin-bottom: 10px;
+            border-radius: 15px;
+            background-color: #C25E84;
+            color: white;
+            font-size: 18px;
+        }
+        .icons svg{
+            border: 1px solid;
+            border-radius: 100%;
+            font-size: 30px;
+            padding: 3px;
+            margin-top: 20px;
+            margin-bottom: 22px;
+        }
+        a{
+            margin-bottom: 40px;
+            color: #c25e84ad;
+            &:visited{
+                color: black;
+                text-decoration: none;
+            }
+        }
+    }
+}

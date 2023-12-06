@@ -1,0 +1,28 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+.navcustom {
+  background-color: #ECE6E8;
+  height: 4.4rem;
+  z-index: 999;
+}
+.navcustom a {
+  margin: 6px 16px;
+}
+.navcustom form {
+  margin: 0.5rem 4rem;
+  width: 100%;
+  height: 2.3rem;
+}
+.navcustom form input {
+  border: none;
+  border-radius: 10px;
+}/*# sourceMappingURL=navbar.module.css.map */
+
+/* modificado por victor */
+
+.navcustom form button{
+  border: none; /* Remova a borda padrão */
+  background: none; /* Remova o fundo padrão */
+  padding: 0; /* Remova o preenchimento */
+  margin: 0; /* Remova a margem */
+  cursor: pointer;
+  color: inherit; /* Use a cor de texto padrão */  }

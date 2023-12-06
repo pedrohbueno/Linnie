@@ -1,0 +1,49 @@
+.link {  
+  border: none;
+  border-radius: 16px;
+  text-decoration: none;
+  color: #fff6f6;
+  font-size:x-large;
+  padding-top: 5px;
+  transition: background-color 0.5s;
+  width: 200px; /* Define a largura do botão para 200px */
+  height: 60px; /* Define a altura do botão para 60px */
+  padding-left: 28px;
+  padding-right: 80px;
+  
+}
+.link:hover {
+  background-color: #772f4b;
+  color: #fff6f6;
+}
+.link2{
+  border: none;
+  border-radius: 16px;
+  text-decoration: none;
+  color: #fff6f6;
+  font-size:x-large;
+  padding-top: 5px;
+  transition: background-color 0.5s;
+  width: 200px; /* Define a largura do botão para 200px */
+  height: 60px; /* Define a altura do botão para 60px */
+  padding-left: 32px;
+  padding-right: 115px;
+}
+.link2:hover{
+  background-color: rgb(185, 146, 4);
+  color: #fff6f6;
+}
+
+.btnExplore {
+  background-color: #FCD074;
+  width: 4.0rem;
+  height: 2.5rem;
+  font-size: 1.2vw;
+}
+
+.btnCreate {
+  background-color: #C25E84;
+  width: 4.0rem;
+  height: 2.5rem;
+  font-size: 1.2vw;
+}/*# sourceMappingURL=buttons.module.css.map */

@@ -1,0 +1,48 @@
+body{
+  background-image: url(../public/img/backgroundimage.png);
+  background-size: cover;
+}
+.appBody{
+    padding-top: 100px;
+}
+@font-face {
+    font-family: 'PoetsenOne';
+    src: url(../public/fonts/PoetsenOne-Regular.ttf);
+}
+@font-face {
+  font-family: 'Bahnschrift';
+  src: url(../public/fonts/BAHNSCHRIFT.TTF);
+}
+@font-face {
+  font-family: 'Bab';
+  src: url(../public/fonts/OoohBaby-Regular.ttf);
+}
+@font-face {
+  font-family: 'Gothic A1';
+  src: url(../public/fonts/GothicA1-Light.ttf);
+}
+.mask {
+    background-image: repeating-linear-gradient(0deg, #000000, #000000 13px, transparent 13px, transparent 23px, #000000 23px), repeating-linear-gradient(90deg, #000000, #000000 13px, transparent 13px, transparent 23px, #000000 23px), repeating-linear-gradient(180deg, #000000, #000000 13px, transparent 13px, transparent 23px, #000000 23px), repeating-linear-gradient(270deg, #000000, #000000 13px, transparent 13px, transparent 23px, #000000 23px);
+    background-size: 7px calc(100% + 23px), calc(100% + 23px) 7px, 7px calc(100% + 23px), calc(100% + 23px) 7px;
+    background-position: 0 0, 0 0, 100% 0, 0 100%;
+    background-repeat: no-repeat;
+  }
+  
+  a:hover .mask {
+    animation: borderAnimation 0.4s 0.3s infinite linear;
+  }
+  .active{
+    background-color: transparent;
+  }
+  .active h2 {
+    color: #C25E84;
+  }
+  
+  @keyframes borderAnimation {
+    from {
+      background-position: 0 0, -23px 0, 100% -23px, 0 100%;
+    }
+    to {
+      background-position: 0 -23px, 0 0, 100% 0, -23px 100%;
+    }
+  }

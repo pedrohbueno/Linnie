@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap');
+
+.background {
+  background-image: url("../img/background.jpg");
+} 
+
+.row form {
+  padding: 0px 20px 10px 20px; /* Ajustando a margem interna */
+  height: auto;
+  border-radius: 20px; /* Ajustando o raio da borda */
+  background-color: #DCD5D7;
+  margin: 10px; /* Ajustando a margem */
+}
+
+.row form h1 {
+  font-family: 'Oooh Baby', cursive;
+  margin-bottom: 20px; /* Ajustando a margem inferior */
+  text-align: center;
+  font-size: 22px; /* Ajustando o tamanho da fonte */
+}
+
+.row form p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-bottom: 10px; /* Ajustando a margem inferior */
+}
+
+.row form p label {
+  margin-bottom: 5px; /* Ajustando a margem inferior */
+  font-size: 16px; /* Ajustando o tamanho da fonte */
+}
+
+.row form p input {
+  height: 25px; /* Ajustando a altura */
+  border: 0;
+  border-radius: 12px; /* Ajustando o raio da borda */
+  padding: 8px; /* Ajustando o preenchimento */
+  font-size: 14px; /* Ajustando o tamanho da fonte */
+}
+
+
+.row form .btnC25E84 {
+  width: 120px; /* Ajustando a largura */
+  height: 35px; /* Ajustando a altura */
+  margin-bottom: 10px; /* Ajustando a margem inferior */
+  border-radius: 15px; /* Ajustando o raio da borda */
+  background-color: #C25E84;
+  color: white;
+  transition: background-color 0.5s;
+  font-size: 18px; /* Ajustando o tamanho da fonte */
+}
+
+.row form .btnC25E84:hover{
+  background-color: #772f4b;
+  color: #fff6f6;
+}
+
+.row form .icons svg {
+  border: 1px solid;
+  border-radius: 100%;
+  font-size: 30px; /* Ajustando o tamanho da fonte */
+  padding: 5px; /* Ajustando o preenchimento */
+  margin-top: 15px; /* Ajustando a margem superior */
+  margin-bottom: 15px; /* Ajustando a margem inferior */
+}
+
+.row form a {
+  margin-bottom: 30px; /* Ajustando a margem inferior */
+  color: #c25e84ad;
+  font-size: 16px; /* Ajustando o tamanho da fonte */
+}
+
+.row form a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.row img {
+  padding-top: 8px; /* Ajustando o preenchimento superior */
+  width: 180px; /* Ajustando a largura */
+  height: 120px; /* Ajustando a altura */
+  margin-bottom: 8px; /* Ajustando a margem inferior */
+}

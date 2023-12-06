@@ -1,0 +1,95 @@
+.FormCreate .Input {
+  display: none;
+}
+.FormCreate .imgInputLabel {
+  position: relative;
+  text-align: center;
+  height: 474px;
+  width: 696px;
+  flex-shrink: 0; 
+  border-radius: 11px;
+  background: #F9F9F9;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.FormCreate .imgInputLabel:hover {
+  cursor: pointer;
+  opacity: 0.86;
+}
+.FormCreate .inputTitle {
+  background-color: transparent;
+  border: none;
+  border-radius: 0%;
+  border-bottom: 2px solid rgba(128, 128, 128, 0.591);
+  box-shadow: none;
+  font-family: "Gotu";
+  color: #7D7D7D;
+}
+
+.FormCreate input::placeholder{
+  font-size:36px;
+}
+
+
+.FormCreate .tagInput {
+  width: 18rem;
+  box-shadow: none;
+  border: none;
+}
+.FormCreate .tagInputBtn {
+  width: 8rem;
+  height: 1.8rem;
+  border: none;
+  background-color: #C25E84;
+}
+.FormCreate .tagInputBtn:hover {
+  background-color: #FCD074;
+}
+.FormCreate .inputDecsLabel {
+  box-shadow: 0px 0px 0px 3px rgba(128, 128, 128, 0.384);
+  width: 5rem;
+  color: #C25E84;
+  height: 2rem;
+}
+.FormCreate .descImg {
+  position: absolute;
+  width: 30rem;
+  right: 4rem;
+  top: 70rem;
+  z-index: -5;
+  transform: scaleX(-1);
+}
+.FormCreate .selectInputLabel {
+  margin: auto;
+}
+.FormCreate .selectInput {
+  width: 8rem;
+  height: 2.5rem;
+  border: none;
+  color: #696969;
+  text-align: center;
+  box-shadow: none;
+  font-family:'Gotu';
+  font-size: 20px;
+}
+.FormCreate .selectInputTag {
+  width: 40rem;
+  height: 2.5rem;
+  border: none;
+  color: #696969;
+  box-shadow: none;
+  font-family: 'Gotu';
+  font-size: 20px;
+}
+.FormCreate .description {
+  width: 1050px;
+  height: 500px;
+  box-shadow: 0px 0px 6px 3px rgba(128, 128, 128, 0.411);
+}/*# sourceMappingURL=create.module.css.map */
+.divbottum{
+  width: 1050px;
+  height: 40px;
+}
+
+
+

@@ -1,0 +1,3 @@
+<svg className='card-img-overlay' width="100%" height="100%">
+    <rect x="5" y="5" width="98%" height="98%" style={{fill:'transparent', strokeWidth:'6', stroke:'grey', strokeDasharray:'20', strokeLinecap:'round'}} />
+</svg>

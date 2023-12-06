@@ -1,0 +1,93 @@
+@charset "UTF-8";
+.comment-container{
+  height: 400px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin-bottom: 10px;
+}
+.slider {
+  margin-top: 60px;
+  margin-bottom: 30px;
+  overflow-x: hidden;
+}
+.slider .slide-content {
+  border-radius: 10px;
+  margin-top: 60px;
+  padding: 20px;
+}
+.slider .slick-slide .slide-content {
+  height: 50vh;
+  margin-top: 50px;
+}
+.slider .slick-center .slide-content {
+  height: 60vh;
+  margin-top: 0px;
+}
+.slider .card {
+  height: 100%;
+  padding: 20px;
+  margin: 0 30px 0 30px;
+  border: none;
+  box-shadow: 0px 0px 2px 3px rgba(117, 117, 117, 0.245);
+  border-radius: 10px;
+}
+.slider .card img {
+  height: 100%;
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
+  width: auto; /* Alteração aqui */
+  max-width: 100%; /* Adicione esta linha para garantir que a imagem não ultrapasse o contêiner */
+}
+.slider .card .slideMask {
+  border: 6px dashed black;
+  border-radius: 10px;
+  height: 93%;
+  width: 95%;
+}
+.slider:focus {
+  border: none;
+}
+
+.btn-prox {
+  background-color: #DCD5D7;
+}
+
+.btn-slider {
+  background-color: transparent;
+}
+.btn-slider h1 {
+  font-size: 4vw;
+}
+
+.btn-prev {
+  position: absolute;
+  top: 40%;
+  left: 32%;
+}
+
+.btn-next {
+  position: absolute;
+  top: 40%;
+  left: 65%;
+}
+
+.userBorder {
+  border: 4px dashed grey;
+  border-radius: 50%;
+}/*# sourceMappingURL=modelslide.css.map */
+
+button{
+  font-family: 'Gothic A1', sans-serif;
+  color:#DBDBDB; 
+}
+h3{
+  font-family: 'Gotu'
+}
+p{
+  font-family: 'Gothic A1', sans-serif;
+}
+h1{
+  font-family: 'Gothic A1', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap');

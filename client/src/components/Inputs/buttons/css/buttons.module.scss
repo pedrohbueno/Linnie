@@ -1,0 +1,22 @@
+$btnc25e84: #C25E84;
+$btnfcd074: #FCD074;
+.link{
+    border: 0;
+    border-radius: 16px;
+    margin: 6px 14px;
+    text-decoration: none;
+    color: rgb(255, 246, 246);
+    font-size: 1.4rem;
+    padding-top: 5px;
+    &:hover{
+        color: rgb(0, 0, 0);
+    }
+}
+.btnExplore{
+    background-color: $btnfcd074;
+    height: 2.8rem;
+}
+.btnCreate{
+    background-color: $btnc25e84;
+    height: 2.8rem;
+}

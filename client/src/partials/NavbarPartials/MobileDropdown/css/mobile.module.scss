@@ -1,0 +1,12 @@
+
+.mobile{
+    display: none;
+    .Offcanvas{
+        z-index: 9999;
+    }
+}
+@media (max-width: 991px) {
+    .mobile{
+        display: inline-block;
+    }
+}

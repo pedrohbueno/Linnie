@@ -1,0 +1,75 @@
+
+.popup-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    z-index: 1000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    border-radius: 16px;
+  }
+  
+  .popup {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .buttonYes {
+    border: none;
+    border-radius: 16px;
+    text-decoration: none;
+    color: #fff6f6;
+    font-size:x-large;
+    padding-top: 3px;
+    transition: background-color 0.5s;
+    width: 100px; /* Define a largura do botão para 200px */
+    height: 60px; /* Define a altura do botão para 60px */
+    padding-left: 50px; 
+    padding-right: 90px;
+    background-color: #C25E84;
+    height: 2.8rem;
+    margin-right: 20px;
+    text-align: center;
+    font-size: 22px; /* Ajuste o tamanho da fonte conforme necessário */
+    font-family: gotu;
+  }
+  .buttonYes:hover {
+    background-color: #772f4b;
+    color: #fff6f6;
+  }
+
+  .buttonNo {
+    border: none;
+    border-radius: 16px;
+    text-decoration: none;
+    color: #fff6f6;
+    font-size:x-large;
+    padding-top: 3px;
+    transition: background-color 0.5s;
+    width: 100px; /* Define a largura do botão para 200px */
+    height: 60px; /* Define a altura do botão para 60px */
+    padding-left: 50px;
+    padding-right: 90px;
+    background-color: #FCD074;
+    height: 2.8rem;
+    text-align: center;
+    font-size: 22px; /* Ajuste o tamanho da fonte conforme necessário */
+    font-family: guto;
+  }
+  .buttonNo:hover {
+    background-color: rgb(185, 146, 4);
+    color: #fff6f6;
+  }
+
+  .popup-image {
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+    margin-bottom: 10px; /* Adapte conforme necessário */
+    padding-top: 10px;
+    width: 250px;
+    height: 150px;
+    margin-bottom: 10px;
+  }

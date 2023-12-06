@@ -1,0 +1,57 @@
+.skirtPopup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    .bg{
+        position: absolute;
+        z-index: -5;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-image: url('../img/backgroundimage.png') ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 0.75;
+        width: 100%;
+        height: 100%;
+    }
+    .skirtPopupInner{
+        position: relative;
+        padding: 32px;
+        width: 100%;
+        max-width: 640px;
+        background-color: white;
+        h4{
+            font-family: 'Gotu';
+        }
+        .cardFigure{
+            width: 30%;
+            position: absolute;
+            top: -100px;
+            right: -4px;
+            z-index: -1;
+            transform: rotate(348deg);
+        }
+        .closeBtn{
+            background-color: #C25E84;
+            color: white;
+            height: 96px;
+            width: 96px;
+            border-radius: 50%;
+            position: absolute;
+            top: -30px;
+            right: -30px;
+            &:hover{
+                background-color: #FCD074;
+            }
+        }
+    }
+}

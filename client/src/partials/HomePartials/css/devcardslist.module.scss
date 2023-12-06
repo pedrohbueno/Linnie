@@ -1,0 +1,72 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+.card {
+  margin: 0.6rem;
+  width: 100%;
+  height: auto;
+  position: relative;
+  border: none;
+  border-radius: 40px;
+  box-shadow: 0px 10px 2px rgba(128, 128, 128, 0.641);
+  display: block;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .devsInfo {
+    display: none;
+    h1 {
+      line-height: 100%;
+    }
+  }
+  .devsImg {
+    border-radius: 50%;
+    width: 60%;
+    height: auto;
+  }
+  &:hover {
+    box-shadow: none;
+    animation: showcolor 0.6s ease;
+    .devsImg {
+      display: none;
+    }
+    .devsInfo {
+      h1{font-family: PoetsenOne;}
+      h2{font-family: PoetsenOne;}
+      p{font-family: Bahnschrift; font-size: larger;}
+      display: block;
+      animation: showtext 0.5s ease;
+    }
+  }
+}
+  
+  @keyframes showtext {
+    from {
+      transform: translateY(20%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes showcolor{
+    from{
+      opacity: 0;
+    }
+    to{
+      opacity: 10;
+    }
+  }
+  @media (min-width: 1200px) and (max-width: 1430px) {
+    .custom-col {
+      width: 20%;
+    }
+  }
+  @media (min-width: 1200px) and (max-width: 1345px) {
+    .card{
+      height: 20vh;
+    }
+  }
+ 
+
+  
+  

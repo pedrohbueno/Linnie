@@ -1,0 +1,271 @@
+
+
+@charset "UTF-8";
+.sidebar {
+  border-right: 5px solid rgba(117, 117, 117, 0.404);
+  margin-top: -24px;
+  position: fixed; 
+  height: 100%;
+}
+
+.sidebar .userImg {
+  width: 230px;
+  margin-left: 5px;
+  margin-bottom: 1px;
+  border-radius: 50%;
+  margin-top: -35px;
+}
+
+.sidebar .btnPerfilEdit {
+  width: 60%;
+  background-color: #c25e84;
+  border-radius: 10px;
+  color: #f8f8f8;
+  font-size: 10px;
+  border-radius: 25px;
+
+}
+
+.btnPerfilEdit:hover {
+  background-color: #772f4b;
+  color: #fff6f6;
+
+}
+
+.sidebar p {
+  font-family: 'Gothic A1';
+}
+
+.portfolio {
+  margin-left: 25%;
+}
+
+.portfolio h1 {
+  font-family: 'Gotu';
+  font-size: 3.5vw;
+}
+
+.card, .card img {
+  margin: 0;
+  height: auto;
+  width: 17vw;
+  min-width: 216px;
+  border-radius: 12px;
+}
+/* Botão de Criação */
+.createBtn {
+  display: block;
+  /* Hidden by default */
+  position: fixed;
+  /* Fixed/sticky position */
+  color: #C25E84;
+  background-color: transparent;
+  bottom: 80px;
+  /* Place the button at the bottom of the page */
+  right: 80px;
+  /* Place the button 30px from the right */
+  z-index: 3;
+  /* Make sure it does not overlap */
+}
+
+.createBtn .imgBtn, .createBtn .imgBtnHv {
+  width: 90px;
+  transition: background-color 0.5s;
+  border-radius: 100px;
+}
+
+.createBtn .imgBtnHv {
+  display: none;
+  transition: background-color 0.5s;
+
+}
+
+.createBtn:hover .imgBtn {
+  background-color: #772f4b;
+  color: #fff6f6;
+  border-radius: 100px;
+
+}
+
+
+@media (min-width: 576px) and (max-width: 1000px) {
+  .userImg {
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 50%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .portfolio {
+    margin-left: 33%;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .portfolio {
+    margin-left: 40%;
+  }
+}
+
+@media (max-width: 575px) {
+  .sidebar {
+    position: relative;
+  }
+  .portfolio {
+    margin-left: 0%;
+  }
+  .portfolio h1 {
+    font-size: 9.5vw;
+  }
+}
+
+.userEdit .box {
+  background-color: #dcd4d69a;
+  border-radius: 10px;
+}
+
+.verticalLine {
+  border-right: 1.8px solid black;
+}
+
+.userEdit .horizontalLine {
+  border-bottom: 1.8px solid black;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.userEdit .userEditButton {
+  height: 2.8rem;
+  width: 10rem;
+  margin: 60px 35%;
+  border-radius: 25px; 
+  color: #fff6f6;
+  background-color: #c25e84;
+  text-decoration: none;
+  font-size: 1.2rem;
+  justify-content: center;
+  align-items: center;  
+  display: flex;
+  transition: background-color 0.5s;
+  
+}
+.userEdit:hover .userEditButton:hover {
+  background-color: #772f4b;
+  color: #fff6f6;
+}
+
+.userEdit .userEditAvatar {
+  border: none;
+  background-color: transparent;
+}
+.userEdit .userEditAvatar .userEditDropdown{
+  z-index: 1;
+  height:  94%;
+  padding-left: 240px;
+  left: 200px;
+  position: absolute;
+  background-color: #DCD5D7;
+  border-radius: 25px;
+}
+
+.userEdit .userEditAvatar .userEditDropdown button {
+  background-color: transparent;
+}
+
+.userEdit .userEditAvatar .userEditDropdown img {
+  height: 200px;
+  width: 200px;
+}
+
+.userEdit .userEditAvatar .btnAvatarChange {
+  text-align: center;
+  display: none;
+  height: 80%;
+  border: none;
+  border-radius: 100%;
+  background-color: #FCD074;
+  justify-content: center;
+  
+}
+
+.userEdit .userEditAvatar .btnAvatarChange:hover {
+  background-color: #FFE8B7;
+}
+
+.userEdit .userEditAvatar .avatarPreview {
+  z-index: 100;
+  height: 47vh;
+  width: 100%;
+}
+
+.userEdit .userEditAvatar:hover .avatarPreview {
+  -webkit-filter: grayscale(40%);
+  filter: grayscale(40%);
+}
+
+.userEdit .userEditAvatar:hover .btnAvatarChange {
+  z-index: 200;
+  display: block;
+}
+
+.userEdit .userEditAvatar .chooseAvatar {
+  text-align: center;
+  font-size: 6rem;
+  height: 160px;
+  width: 160px;
+  background-color: #C7AEB6;
+  border-radius: 50%;
+}
+
+.userEdit .userEditAvatar .chooseAvatar:hover {
+  background-color: #ECE6E8;
+  cursor: pointer;
+}
+
+.userEdit .userEditAvatar .chooseAvatar input {
+  visibility: hidden;
+  padding: 10px;
+}
+
+.userEdit input {
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.userEdit .userEditTitle {
+  font-family: 'Gotu';
+}
+.userEditSubTitle {
+  font-family: 'Gotu';
+}
+
+.userEditButton{
+  margin-top: 30px;
+  width: 50%;
+}
+
+.sidebar .btnSaveFolow {
+  height: 2.8rem;
+  width: 10rem;
+  margin: 60px auto; /* Ajuste a margem e defina auto para centralizar horizontalmente */
+  border-radius: 25px;
+  color: #fff6f6;
+  background-color: #c25e84;
+  text-decoration: none;
+  font-size: 1.2rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  transition: background-color 0.5s;
+  text-align: center; /* Centraliza o texto dentro do botão */
+}
+
+.sidebar .btnSaveFolow:hover {
+  background-color: #772f4b;
+  color: #fff6f6;
+}
+
+/*# sourceMappingURL=user.module.css.map */
+
+@import url('https://fonts.cdnfonts.com/css/gotu-2');

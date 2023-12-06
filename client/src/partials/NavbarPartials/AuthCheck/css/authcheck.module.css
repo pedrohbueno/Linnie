@@ -1,0 +1,22 @@
+.dropdown button {
+  border: none;
+}
+.dropdown .dropdownMenu a {
+  font-family: "Bahnschrift";
+  padding: 0;
+  width: auto;
+}
+.dropdown .dropdownMenu a:hover {
+  color: #FCD074;
+  background-color: transparent;
+}
+.dropdown .dropdownMenu a:active {
+  color: #C25E84;
+  background-color: transparent;
+}
+
+@media (max-width: 991px) {
+  .dropdown {
+    display: none;
+  }
+}/*# sourceMappingURL=authcheck.module.css.map */

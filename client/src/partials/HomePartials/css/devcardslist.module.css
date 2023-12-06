@@ -1,0 +1,76 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+.card {
+  margin: 0.7rem;
+  min-width: 100%;
+  width: 100%;
+  min-height: 35vh;
+  height: auto;
+  position: relative;
+  border: none;
+  border-radius: 40px;
+  display: flex;
+  overflow-y: hidden;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card .devsInfo {
+  display: none;
+}
+.card .devsInfo h1 {
+  line-height: 100%;
+}
+.card .devsImg {
+  width: 70%;
+  height: auto;
+}
+.card:hover {
+  box-shadow: none;
+  animation: showcolor 0.8s ease;
+}
+.card:hover .devsImg {
+  display: none;
+}
+.card:hover .devsInfo {
+  display: block;
+  animation: showtext 0.5s ease;
+}
+.card:hover .devsInfo h1 {
+  font-family: gotu
+}
+.card:hover .devsInfo h2 {
+  font-family: gotu
+}
+.card:hover .devsInfo p {
+  font-family: gothic a1;
+  font-size: larger;
+}
+
+@keyframes showtext {
+  from {
+    transform: translateY(50%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes showcolor {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 10;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1430px) {
+  .custom-col {
+    width: 20%;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1345px) {
+  .card {
+    height: 20vh;
+  }
+}/*# sourceMappingURL=devcardslist.module.css.map */

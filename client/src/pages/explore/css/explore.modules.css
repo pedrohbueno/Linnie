@@ -1,0 +1,35 @@
+
+.createBtn {
+    display: block;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    color: #C25E84;
+    background-color: transparent;
+    bottom: 80px;
+    /* Place the button at the bottom of the page */
+    right: 80px;  
+    /* Place the button 30px from the right */
+    z-index: 3;
+    /* Make sure it does not overlap */
+  }
+    
+    .createBtn .imgBtn, .createBtn .imgBtnHv {
+      width: 90px;
+      transition: background-color 0.5s;
+      border-radius: 100px;
+    }
+    
+    .createBtn .imgBtnHv {
+      display: none;
+      transition: background-color 0.5s;
+    
+    }
+    
+    .createBtn:hover .imgBtn {
+      background-color: #772f4b;
+      color: #fff6f6;
+      border-radius: 100px;
+    
+    }
+  

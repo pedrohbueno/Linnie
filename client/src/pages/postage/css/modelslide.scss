@@ -1,0 +1,66 @@
+.slider {
+    margin-top: 60px;
+    margin-bottom: 30px;
+    overflow-x: hidden;
+    .slide-content{
+        border-radius: 10px;
+        margin-top: 60px;
+        padding: 20px;
+    }
+    .slick-slide{
+        .slide-content{
+            height: 50vh;
+            margin-top: 50px;
+        }
+    } 
+    .slick-center{ 
+        .slide-content{
+            height: 60vh;
+            margin-top: 0px;
+        }
+    }
+    .card{
+        height: 100%;
+        padding: 20px;
+        margin: 0 30px 0 30px;
+        border: none;
+        box-shadow: 0px 0px 2px 3px rgba(117, 117, 117, 0.245);
+        border-radius: 10px;
+        img{
+            height: 100%;
+            object-fit: scale-down;
+            width: auto; /* Alteração aqui */
+            max-width: 100%; /* Adicione esta linha para garantir que a imagem não ultrapasse o contêiner */
+        }
+        .slideMask{
+            border: 6px dashed black;
+            border-radius: 10px;
+            height: 93%;
+            width: 95%;
+
+        }
+    }
+    &:focus{
+        border: none;
+    }
+}
+.btn-slider{
+    background-color: transparent;
+    h1{
+        font-size: 4vw;
+    }
+}
+.btn-prev{
+    position: absolute;
+    top: 40%;
+    left: 32%;
+}
+.btn-next{
+    position: absolute;
+    top: 40%;
+    left: 65%;
+}
+.userBorder{
+    border: 4px dashed grey;
+    border-radius: 50%;
+}
